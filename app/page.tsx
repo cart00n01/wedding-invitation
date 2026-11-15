@@ -255,7 +255,6 @@ export default function Home() {
             <section className="gallery-section" id="moments">
               <p className="overline">A STORY IN FRAMES</p>
               <h2>Little moments, <em>big love.</em></h2>
-              <p className="section-copy">Every picture tells a story. Add your favorite photos to make this space your own.</p>
               <div className="gallery-grid">
                 {wedding.photos.map((src, i) => (
                   <div className={`gallery-item gallery-${i + 1}`} key={i}>

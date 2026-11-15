@@ -1,8 +1,8 @@
 /** Edit this file first. All the important wedding details live here. */
 export const wedding = {
   couple: {
-    first: "Sandip",
-    second: "Ajita",
+    first: "Ajita",
+    second: "Sandip",
     initials: "S & A",
   },
   tagline: "Together is our favorite place to be.",
@@ -17,7 +17,7 @@ export const wedding = {
   city: "Simara, Nepal",
   // These are placeholders until the actual invitation details are confirmed.
   venueName: "Home",
-  venueAddress: "Simara, Kathmandu",
+  venueAddress: "Napi Road,Simara",
   mapUrl: "https://maps.app.goo.gl/EhHoWwTgpbnRQNGH7",
   // Optional. Add your email address to activate the RSVP-by-email button.
   rsvpEmail: "",
@@ -25,5 +25,5 @@ export const wedding = {
   heroVideo: "", // Example: "/videos/hero.mp4"
   soundtrack: "/music/song1.mp3", // Example: "/music/song.mp3"
   // Add your photo files to public/images/ and update the paths below.
-  photos: ["/images/ajita_di_1.jpeg", "/images/bh.jpeg", "/images/ajita_di_2.jpeg"], // e.g. "/images/photo-1.jpg"
+  photos: ["/images/ajita_di_1.jpeg", "/images/both.jpeg", "/images/sandip.png"], // e.g. "/images/photo-1.jpg"
 } as const;

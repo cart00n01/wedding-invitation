@@ -804,14 +804,14 @@ h2 em {
 }
 
 .rsvp-bottom {
-    font-family: var(--font-serif), Georgia, serif;
+    font-family: var(--font-couple), cursive;
     font-size: 40px;
     margin-top: 10px
 }
 
 .rsvp-bottom em {
     color: #dcb09c;
-    font-family: var(--font-script), cursive;
+    font-family: var(--font-couple), cursive;
     font-size: 30px;
     padding: 0 12px
 }
@@ -1240,7 +1240,7 @@ html {
 }
 
 .invitation-hero h1 {
-    font-family: var(--font-script), cursive;
+    font-family: var(--font-couple), cursive;
     font-size: clamp(72px, 8.8vw, 132px);
     font-weight: 400;
     letter-spacing: 0;
@@ -1250,7 +1250,7 @@ html {
 }
 
 .invitation-hero h1 em {
-    font-family: var(--font-script), cursive;
+    font-family: var(--font-couple), cursive;
     font-size: 42px;
     line-height: .8;
     color: #a37a48;
